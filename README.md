@@ -23,7 +23,7 @@ provide a better prediction accuracy.
 	- What variables(s) are neither targets nor features, and should be removed from the input data?
 
 	  Below is an image of columns I removed, and the reason why I removed them.
-	  ![dropped columns]()
+	  ![dropped columns](https://github.com/jseverin1984/Neural_Network_Charity_Analysis/blob/main/Resources/dropped_columns.png)
 
 - Compiling, Training, and Evaluating the Model
 
@@ -36,12 +36,12 @@ provide a better prediction accuracy.
 	- Were you able to achieve the target performance?
 
 	  I did not reach the 75% accuracy score. The below image shows my results.
-	  ![first attempt results]()
+	  ![first attempt results](https://github.com/jseverin1984/Neural_Network_Charity_Analysis/blob/main/Resources/first_attempt_results.png)
 
 	- What steps did you take to try and increase model performance?
 	  
 	  The image below describes how I tried to increase model performance.
-	  ![third attempt]()
+	  ![third attempt](https://github.com/jseverin1984/Neural_Network_Charity_Analysis/blob/main/Resources/third_attempt.png)
 
 ## Summary
 
