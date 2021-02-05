@@ -5,7 +5,7 @@
 For this analysis, I wanted to help Alphabet Soup make better decisions when deciding which organizations to fund with their charitable efforts.
 The goal was to use machine learning, specifically neural networks, to classify an organization as if it will either be successful or a failure
 if funded by Alphabet Soup.  I was given a data set with their history of funding and outcomes achieved by the organization with the funding.
-The data was preporcessed, the models were compiled, trained, and evaluated the data. Lastly, I attempted to optimize the model in order to
+The data was preprocessed, the models were compiled, trained, and evaluated the data. Lastly, I attempted to optimize the model in order to
 provide a better prediction accuracy.
 
 ## Results
@@ -45,9 +45,9 @@ provide a better prediction accuracy.
 
 ## Summary
 
-I was only able to increase my model performace by .1% after trying two rounds of optimizations.  The neural network model seemed to work pretty
+I was only able to increase my model performance by .1% after trying two rounds of optimizations.  The neural network model seemed to work pretty
 well right away, without any optimization.  When you look at the epoch logs, it reaches a peak accuracy within 10 epochs.  I tried other variations
-with more up to five hidden layers and random acitvation functions, but I couldn't get anything over 73% accuracy. I just don't know enough about
+with more up to five hidden layers and random activation functions, but I couldn't get anything over 73% accuracy. I just don't know enough about
 machine learning to optimize with great scrutiny. I looked for outliers in the data, but couldn't find any. I did find a couple columns that could possibly
 skew my prediction results, but after taking them out, the bump in performance was negligible. I would recommend trying a random forest classifier. So the
 model could build off of weak learners and grow into a better predictive model. You could also combine it with bootstrapping or boosting to help increase
